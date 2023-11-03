@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Screen Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-no-repeat bg-cover bg-center " style="background-image: url('./Assets/background-image.png')">
+    <div class="min-h-screen ">
+                
+       <div class="container  min-h-screen" >
+            <!-- Transparent Navbar -->
+            <nav class="bg-transparent p-4 fixed top-0  w-full z-50 ">
+                <div class=" mx-8  flex justify-between items-center ">
+                    <!-- Logo -->
+                    <div class="inline-flex ml-5">
+                        <img src="./Assets/website-logo.png" alt="Logo" class="h-15 w-15 mr-2">
+                        
+                    </div>
+
+                    <!-- navbar option list -->
+                <div class="font-semibold">
+                    <ul class="flex justify-between items-center">
+                        <li class="mx-2"><a href="#">RETAIL</a></li>
+                        <li class="mx-2"><a href="#">SME</a></li>
+                        <li class="mx-2"><a href="#">CORPORATE</a></li>
+                        <li class="mx-2"><a href="#">ABOUT US</a></li>
+                        <li class="mx-2"><a href="#">COVID 19</a></li>
+                        <li class="mx-2"><a href="#">CAMPGAIN</a></li>
+                        
+                    </ul>
+                </div>
+
+                    <div class="inline-flex float-right">
+                        <!-- Search Button -->
+                        <button class="items-end hover:bg-pink-300 px-4 py-2 rounded-md mx-3"><img src="./Assets/search-icon.png" alt="search icon"></button>
+                        <!-- Extra Service Button -->
+                        <button class="bg-pink-500 text-white hover:bg-pink-600 px-4 py-2 rounded-md">Service</button>
+                    </div>
+                </div>
+            </nav>
+            <!-- Main Content Container -->
+            <div class="  mt-10 py-5 flex h-screen p-10 ">
+             <div class="relative grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Left Section (Heading and Content) -->
+                    <div class="p-4 bg-transparent  flex flex-col  justify-center ">
+                            <h1 class="text-4xl font-extrabold text-left mb-3 ">Chase your <br>Dream with us </h1>
+                            <p class="text-lg font-semibold mb-3">The harder you work for something, the greater you'll feel when you achieve it.</p>
+                            <div>
+                                <button class="bg-pink-500 text-white hover:bg-pink-600 px-4 py-2 rounded-md">APPLY LOAN</button>
+                                <button class="bg-transparent text-pink-700 hover:bg-pink-600 border border-pink-700 px-4 py-2 ml-2 rounded-md">LOAN CALCULATOR</button>
+
+                            </div>
+                            <!-- Footer -->
+                            <footer class=" text-black  absolute bottom-3 left-2 p-4  flex items-center justify-center">
+                                <img src="./Assets/phone.png" alt="Image 1" class="mx-1">
+                                <p class="">1659 |</p>
+                                <img src="./Assets/linkedin.png" alt="Image 1" class="mx-1">
+                                <img src="./Assets/facebook.png" alt="Image 1" class="mx-1">
+                                <img src="./Assets/youtube.png" alt="Image 1" class="mx-1">
+                                <img src="./Assets/instagram.png" alt="Image 1" class="mx-1">
+                            </footer>
+                    </div>
+                <!-- Right Section (Full Div Image) -->
+                    <div class="  relative  bg-cover bg-center bg-opacity-50 rounded-lg   max-h-screen "  style="width: 650px;">
+                        <!-- Content here, if any -->
+                        <img  src="./Assets/hero-image.png" class="absolute top-0 right-0 w-full h-full" alt="">
+                        <div class="">
+                            <button class="bg-white absolute top-8 left-5 text-black shadow-lg shadow-black rounded-full  hover:bg-gray-950   transform -translate-x-1/2 -translate-y-1/2 px-4 py-2 mt-10 ml-16 cursor-pointer  z-50"><img src="./Assets/car.png" class="mx-2 inline-flex" alt="car icon">Car Loan</button>
+
+                            
+
+                        </div>    
+
+                        
+                    </div>
+             </div>
+            </div>
+                    
+            <button class="bg-white absolute top-60 right-0 ml-28 text-black shadow-lg shadow-black rounded-full  hover:bg-gray-950    transform -translate-x-1/2 -translate-y-1/2 px-4 py-2 cursor-pointer"><img src="./Assets/House.png" class="mx-2 inline-flex" alt="car icon">House Loan</button>     
+        </div>
+    </div>
+</body>
+</html>
